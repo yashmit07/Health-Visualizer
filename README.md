@@ -51,8 +51,7 @@ yarn start
 - React Native (v0.64.3)
 - Expo (v44.0.0)
 - React Navigation v5
-- React Native Paper
-- Various React Native components for UI/UX
+- Various React Native UI components
 
 ## Scripts
 
@@ -73,4 +72,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Data provided by [Your Data Source]
 - Built with Expo and React Native
-- UI components from React Native Paper
