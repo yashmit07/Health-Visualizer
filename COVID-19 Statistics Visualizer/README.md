@@ -1,11 +1,76 @@
-# Sample Snack app
+# COVID-19 Statistics Visualizer
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+A React Native mobile application that provides interactive visualizations and statistics for COVID-19 data. This app helps users track and understand COVID-19 trends through an intuitive and user-friendly interface.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+- Interactive data visualizations for COVID-19 statistics
+- Real-time data updates
+- Cross-platform support (iOS and Android)
+- Material design UI components
+- Responsive and intuitive navigation
+- Multiple view options for data presentation
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+## Prerequisites
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+- Node.js (v12 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (for iOS development) or Android Studio (for Android development)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+cd COVID-19\ Statistics\ Visualizer
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
+
+## Running the App
+
+- For iOS: Press `i` in the terminal or click "Run on iOS simulator" in the Expo DevTools
+- For Android: Press `a` in the terminal or click "Run on Android device/emulator" in the Expo DevTools
+- For web: Press `w` in the terminal or click "Run in web browser" in the Expo DevTools
+
+## Tech Stack
+
+- React Native (v0.64.3)
+- Expo (v44.0.0)
+- React Navigation v5
+- React Native Paper
+- Various React Native components for UI/UX
+
+## Scripts
+
+- `npm start` or `yarn start`: Start the Expo development server
+- `npm run android` or `yarn android`: Run on Android device/emulator
+- `npm run ios` or `yarn ios`: Run on iOS simulator
+- `npm run web` or `yarn web`: Run in web browser
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Data provided by [Your Data Source]
+- Built with Expo and React Native
+- UI components from React Native Paper
